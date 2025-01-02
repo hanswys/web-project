@@ -9,7 +9,6 @@ body {
 }
 .header {
   background-color: #1f2937;
-  flex: 1;
   padding: 10px 100px;
 }
 
@@ -56,17 +55,52 @@ body {
 }
 
 .random-info {
-  flex: 1;
+  /* flex: 1; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.box{
+  display: flex;
+  gap: 15px;
+  /* justify-content: space-around; */
+  /* border: 2px red; */
+}
+
+.box-shape{
+  height: 50px;
+  width: 50px;
+  border: solid 2px #3882F6;
 }
 
 .quote {
   flex: 1;
   background-color: #E5E7EB;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 10px 170px;
+
 }
 
 .call-to-action {
-  flex: 1;
+  /* flex: 1; */
+  padding: 10px 130px;
+}
+
+.blue-box{
+  background-color: #3882F6;
+  height: 100px;
+
 }
 
 footer {
+  /* flex: 2; */
+  background-color: #1f2937;
+}
+
+.footer{
+height:150;
 }
