@@ -36,6 +36,10 @@ body {
   padding-bottom: 50px;
 }
 
+.main-desc {
+  color: #f9faf8;
+}
+
 .main {
   flex: 1;
 }
@@ -53,8 +57,12 @@ body {
 
 .sign-up {
   /* border-radius: 80%; */
-  background-color: blue;
+  background-color: #3882F6;
   color: #f9faf8;
+  border-radius: 15%;
+  border: none;
+  padding: 5px;
+  width: 80px;
 }
 
 .random-info {
@@ -68,6 +76,9 @@ body {
 
 .random-header{
   margin-bottom: 20px;
+  font-size: 36px;
+  font-weight: 900%;
+  color: #1f2937;
 }
 
 
@@ -110,10 +121,23 @@ body {
   background-color: #3882F6;
   height: 100px;
   /* border-radius: 5%; */
+  display: flex;
+  padding: 20px 80px;
+  gap: 30px;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 15px;
 }
 
 
 footer{
 flex: 3;
 background-color: #1f2937;
+text-align: center;
+padding: 20px 200px;
+color: white;
+}
+
+.sign-up-two{
+
 }
